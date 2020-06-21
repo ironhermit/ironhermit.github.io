@@ -28,7 +28,7 @@ twitter_username:
 github_username:
 
 # Build settings
-
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
