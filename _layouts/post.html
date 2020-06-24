@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <!-- Page Header -->
@@ -28,6 +29,7 @@ layout: default
     </div>
   </header>
 
+<article>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
@@ -52,3 +54,8 @@ layout: default
       </div>
     </div>
   </div>
+</article>
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
