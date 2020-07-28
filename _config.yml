@@ -35,8 +35,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-#markdown:           kramdown
-paginate:           5
+markdown:           kramdown
+paginate:           10
 paginate_path:      "/posts/page:num/"
 
 # Google Analytics
